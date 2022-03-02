@@ -19,6 +19,10 @@
     height: 44%;
     margin-top: 5%;
 }
+#img_container~p {
+    margin-bottom: 4%;
+    font-size: 32px;
+}
 #input_div>form>input:last-child {
     margin-top: 1%;
     padding: 4px 10px;
@@ -41,9 +45,12 @@
 .output_here>div:first-child {
     margin-left: 4%;
 }
+.output_here>div:nth-last-child(2){
+    width: 80%;
+}
 .output_here>div:last-child {
-    width: 50%;
-    margin-left: 4%;
+    cursor: pointer;
+    text-align: right;
 }
 .output_here>div>p {
     text-align: left;
