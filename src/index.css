@@ -1,0 +1,51 @@
+#container {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    height: 600px;
+    margin-top: 2%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#input_div {
+    width: 30%;
+    margin-left: 4%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#form {
+    text-align: center;
+}
+#input_div img {
+    width: 64%;
+    height: 44%;
+    margin-top: 5%;
+}
+#input_div>form>input:last-child {
+    margin-top: 1%;
+    padding: 4px 10px;
+}
+#output_div {
+    width: 50%;
+    margin-left: 6%;
+    margin-top: 1%;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+.output_here {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 98%;
+    margin: auto;
+    margin: 1%;
+    display: flex;
+}
+.output_here>div:first-child {
+    margin-left: 4%;
+}
+.output_here>div:last-child {
+    width: 50%;
+    margin-left: 4%;
+}
+.output_here>div>p {
+    text-align: left;
+
+}
