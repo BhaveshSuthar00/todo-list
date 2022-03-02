@@ -7,6 +7,7 @@ img.src = Icon;
 form.addEventListener('submit',(event) => {
     let text = document.getElementById('task').value;
     let obj = {
+        
         task : text
     }
     arr.push(obj);
